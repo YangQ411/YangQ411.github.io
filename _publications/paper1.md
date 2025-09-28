@@ -1,9 +1,9 @@
 ---
 title: "New Gedanken Experiment on RN-AdS Black Holes Surrounded by Quintessence"
 collection: publications
-category: Physics
+category: physics
 permalink: /publication/paper1
-excerpt: 'Made a literature review of the weak cosmic censorship conjecture for RN-AdS black holes surrounded by quintessence'
+excerpt: 'Made a literature review of the weak cosmic censorship conjecture for RN-AdS black holes surrounded by'
 date: 2020-07-10
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
