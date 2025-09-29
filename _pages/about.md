@@ -11,14 +11,11 @@ I am a Master’s student in Software Engineering Systems at Northeastern Univer
 
 Research Interesting
 ======
-LLMs
 
-Getting started
-======
+Large Language Model
+-----
 
-Site-wide configuration
+AI for Science
 ------
 
-Create content & metadata
-------
 
