@@ -49,8 +49,7 @@ paperurl: 'https://www.ewadirect.com/proceedings/ace/article/view/10938/pdf'
 <div class="thumb-grid">
   {% for i in (1..5) %}
   <div class="thumb">
-    <img src="/images/publication/paper2/f{{ i }}.png" alt="Figure {{ i }}" loading="lazy">
-    <div class="thumb-caption">Figure {{ i }}</div>
+    <img src="/images/publication/paper3/f{{ i }}.png" alt="Figure {{ i }}" loading="lazy">
   </div>
   {% endfor %}
 </div>

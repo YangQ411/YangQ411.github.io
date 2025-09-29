@@ -52,7 +52,6 @@ paperurl: 'https://pdf.sciencedirectassets.com/271560/1-s2.0-S0550321323X00078/1
   {% for i in (1..10) %}
   <div class="thumb">
     <img src="/images/publication/paper2/f{{ i }}.jpg" alt="Figure {{ i }}" loading="lazy">
-    <div class="thumb-caption">Figure {{ i }}</div>
   </div>
   {% endfor %}
 </div>
