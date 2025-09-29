@@ -29,13 +29,28 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+Teaching & Academic Experience
 ======
+* Teaching Assistant, CSYE 7105 – Parallel Machine Learning & AI, Northeastern University (Fall 2025)
+Guided students in machine learning, deep learning, and parallel computing; held weekly office hours for code debugging and optimization.
+* Research Assistant & Lab Coordinator, Center for Theoretical Physics, SCU (2020–2023)
+Led multiple theoretical physics projects, developed mathematical models, and organized group research activities.
 
-Service and leadership
+Leadership & Service
 ======
-* Currently signed in to 43 different slack teams
+* Founder & Organizer, AI & LLM Reading Group, Northeastern University (2024–2025)
+
+* Group Leader, Remote Research Group on Transformers & LLMs (2023)
+
+* Volunteer & Coordinator, 4th Southwest Workshop on Theoretical Physics (2023)
+
+* Volunteer & Host, 28th International Conference on Supersymmetry and Unification of Fundamental Interactions (2021)
+
+Honors & Awards
+======
+* Scholarship for Academic Excellence（SCU）
+
+* Outstanding Graduate Student（SCU）
+
+* Scholarship for Outstanding Student（SDAU）
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
