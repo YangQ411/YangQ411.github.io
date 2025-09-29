@@ -1,8 +1,9 @@
 ---
 title: "Analysis of Attention Mechanism and Its Recent Variance in Transformer"
 collection: publications
-category: conferences
+category: ml_nlp
 permalink: /publication/paper3
+status: published
 excerpt: 'Conducted a comparative study of attention variants (Linear, External, FLASH) in Transformers using PyTorch, highlighting runtime efficiency and optimization effects across datasets.'
 date: 2023-10-19
 venue: '4th International Conference on Signal Processing and Machine Learning'

@@ -3,6 +3,7 @@ title: "Thermodynamics and Phase Transition in Central Charge Criticality of Cha
 collection: publications
 category: physics
 permalink: /publication/paper2
+status: published
 excerpt: 'Introduces central charge into Gauss-Bonnet AdS black hole thermodynamics and reveals new phase transition phenomena through holographic analysis.'
 date: 2023-03-09
 venue: 'Nuclear Physics B'

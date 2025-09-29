@@ -1,8 +1,9 @@
 ---
 title: "Comparative Study of LoRA placement Strategies for Parameter-Efficient Fine-Tuning of LLMs"
 collection: publications
-category: conferences
+category: llm
 permalink: /publication/paper4
+status: in_preparation
 excerpt: 'Provides a systematic comparison of different LoRA placement strategies across multiple LLMs, evaluating accuracy, efficiency, throughput, and memory trade-offs, and offering recommended strategies under different optimization objectives.'
 date: 2025-02-17
 venue: 'GitHub Journal of Bugs'

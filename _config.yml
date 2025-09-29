@@ -80,10 +80,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  llm:
+    title: 'Large Language Models'    
+  ml_nlp:
+    title: 'Machine Learning and NLP'
   physics:
     title: 'Physics'
   

@@ -3,6 +3,7 @@ title: "New Gedanken Experiment on RN-AdS Black Holes Surrounded by Quintessence
 collection: publications
 category: physics
 permalink: /publication/paper1
+status: published
 excerpt: 'Explores cosmic censorship in RN-AdS black holes with quintessence by proposing a new Gedanken experiment and comparing theoretical results with previous works..'
 date: 2022-03-01
 venue: 'European Physical Journal C'

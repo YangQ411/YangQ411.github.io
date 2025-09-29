@@ -14,17 +14,31 @@ author_profile: true
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+    {% assign cat_key = category[0] %}
+    {% assign cat_title = category[1].title %}
+    {% assign cat_pubs = site.publications | where:"category", cat_key | sort: "date" | reverse %}
+
+    {% if cat_pubs.size > 0 %}
+      <h2>{{ cat_title }}</h2><hr />
+
+      {% assign buckets = "published|under_review|in_preparation" | split:"|" %}
+      {% for bucket in buckets %}
+        {% assign bucket_pubs = cat_pubs | where: "status", bucket %}
+        {% if bucket_pubs.size > 0 %}
+          <h3>
+            {% case bucket %}
+              {% when "published" %}Published
+              {% when "under_review" %}Under review
+              {% when "in_preparation" %}In preparation
+            {% endcase %}
+          </h3>
+
+          {% for post in bucket_pubs %}
+            {% include archive-single.html %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
