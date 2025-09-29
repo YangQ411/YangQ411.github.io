@@ -3,7 +3,7 @@ title: "Analysis of Attention Mechanism and Its Recent Variance in Transformer"
 collection: publications
 category: conferences
 permalink: /publication/paper3
-excerpt: 'Reproduced the Transformer model using PyTorch to investigate the application of the Attention mechanism in neural networks Implemented neural network models with linear complexity, including the Linear Transformer, External Attention, and FLASH models in PyTorch, assessing their runtime performance across diverse datasets Developed low-rank multi-head attention neural network models in PyTorch; conducted comparative experiments with their original models on diverse datasets Consolidated experimental results; compared different models and the effect of model optimization'
+excerpt: 'Conducted a comparative study of attention variants (Linear, External, FLASH) in Transformers using PyTorch, highlighting runtime efficiency and optimization effects across datasets.'
 date: 2023-10-19
 venue: '4th International Conference on Signal Processing and Machine Learning'
 paperurl: 'https://www.ewadirect.com/proceedings/ace/article/view/10938/pdf'
