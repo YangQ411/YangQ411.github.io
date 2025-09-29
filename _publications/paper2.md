@@ -12,11 +12,10 @@ paperurl: 'https://pdf.sciencedirectassets.com/271560/1-s2.0-S0550321323X00078/1
 **Abstract:** In this paper, we investigate the thermodynamics of D-dimensional charged Gauss-Bonnet black holes in anti-de Sitter spacetime. By considering the variations of the cosmological constant, the Newton's constant and the Gauss-Bonnet coupling constant in bulk, one can rewrite the first law of thermodynamics in a holographic form, where the contributions of thermodynamical variables in bulk and the boundary field theory are both included. Based on this approach, we study the phase transition in the central charge criticality when $D = 4$, 5, and 6. Besides, a triple point where the small/intermediate/large black holes can coexist is found in D = 6.
 
 <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;">
-{% for i in (1..5) %}
+{% for i in (1..10) %}
   <a href="/images/publication/paper2/f{{ i }}.jpg" target="_blank">
     <img src="/images/publication/paper2/f{{ i }}.jpg" alt="Figure {{ i }}"
          style="width:160px;height:auto;border:1px solid #ddd;border-radius:6px;padding:2px;">
   </a>
 {% endfor %}
 </div>
-<p style="text-align:center;"><em>Figures 1–5: Thermodynamic plots.</em></p>
