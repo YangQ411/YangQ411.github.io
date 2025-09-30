@@ -4,13 +4,11 @@ permalink: /education/
 author_profile: true
 ---
 
-Education
-======
 * M.S. in Software Engineering System, Northeastern University (NEU), 2026 (expected)
 * M.S. in in Physics, Sichuan University (SCU), 2023
 * B.S. in Resource Recycling Science and Engineering, Shandong Agricultural University (SDAU), 2020
 
-Relevant Course
+Relevant Courses
 ======
 * Data Science Engineering Methods and Tools
 * High-Performance Parallel Machine Learning and AI
