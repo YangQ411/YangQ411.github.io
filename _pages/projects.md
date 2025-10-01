@@ -1,8 +1,8 @@
 ---
 title: "Projects"
 permalink: /projects/
-author_profile: true
-mathjax: true 
+author_profile: true 
+use_math: true
 ---
 
 Here are some of my selected projects:
@@ -41,9 +41,9 @@ Here are some of my selected projects:
 
 ## Physics Research (Past Work)
 
-## Non-singular String Cosmology with Matter Sources via all Order $\alpha'$ Corrections
+## Non-singular String Cosmology with Matter Sources via all Order \( \alpha^\prime \) Corrections
 - Conducted background research on classical singularities in cosmology. 
-- Studied string-theoretic corrections in non-singular cosmology via $\alpha'$ expansion and derived kinematic equations describing cosmic evolution. 
+- Studied string-theoretic corrections in non-singular cosmology via \( \alpha^\prime \) expansion and derived kinematic equations describing cosmic evolution. 
 - Solved equations using Wolfram Mathematica and visualized solution trends for matter-driven cosmological models. 
 
 [Paper Draft](#)
