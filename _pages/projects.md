@@ -15,7 +15,7 @@ Here are some of my selected projects:
 - Applied distributed training strategies using Data Parallelism (DDP) and Fully Sharded Data Parallelism (FSDP) across multiple GPUs to improve scalability.  
 - Conducted experiments on Northeastern’s Explorer HPC Cluster, utilizing multi-GPU resources and Slurm job scheduling for large-scale training and benchmarking.  
 
-[GitHub Repo](https://github.com/YangQ411/llama-lora-study)
+[GitHub Repo](https://github.com/YangQ411/Hybrid-Fine-Tuning-and-Parallelism-Training-for-Llama3-)
 
 ---
 
@@ -35,7 +35,7 @@ Here are some of my selected projects:
 - Implemented LLM-based automatic evaluation using GPT-4 as the judge, assessing the fine-tuned model on MT-Bench and a custom dataset to measure performance reliably.  
 - Compared traditional metrics (BLEU, ROUGE, Perplexity) with LLM-based judgments, identifying the key advantages and limitations of each paradigm to guide more robust evaluation strategies.
 
-[GitHub Repo](https://github.com/YangQ411/llama-lora-study)
+[GitHub Repo](https://github.com/YangQ411/LLM-Eval-Pipeline)
 
 ---
 
