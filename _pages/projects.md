@@ -2,6 +2,7 @@
 title: "Projects"
 permalink: /projects/
 author_profile: true
+mathjax: true 
 ---
 
 Here are some of my selected projects:
