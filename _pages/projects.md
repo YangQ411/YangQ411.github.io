@@ -2,18 +2,18 @@
 title: "Projects"
 permalink: /projects/
 author_profile: true 
-use_math: true
 ---
 
 Here are some of my selected projects:
 
 ## Large Language Models (LLMs)
 
-## Hybrid Fine-Tuning and Parallelism for Llama3 Model
-- Fine-tuned the Llama3.2-1B model using Low-Rank Adaptation (LoRA) to reduce parameter overhead.  
-- Implemented and compared mixed-precision training (FP32, FP16, BF16) to optimize speed and memory efficiency.  
-- Applied distributed training strategies using Data Parallelism (DDP) and Fully Sharded Data Parallelism (FSDP) across multiple GPUs to improve scalability.  
-- Conducted experiments on Northeastern’s Explorer HPC Cluster, utilizing multi-GPU resources and Slurm job scheduling for large-scale training and benchmarking.  
+## Explored efficient fine-tuning and distributed optimization strategies for Large Language Models:
+- Selected Llama 3.2-1B and applied LoRA to attention layers on the OpenOrca dataset. 
+- Implemented and evaluated mixed-precision training (FP32, FP16, BF16), achieving ~5× throughput improvement and ~20% GPU memory savings.
+- Compared parallel training methods (DDP vs. FSDP), identifying efficiency–scalability trade-offs across cluster sizes.
+- Accelerated preprocessing with Dask + SLURM, reducing tokenization time by over 50%.
+- Deployed a Gradio chatbot demo to showcase fine-tuned model interaction.
 
 [GitHub Repo](https://github.com/YangQ411/Hybrid-Fine-Tuning-and-Parallelism-Training-for-Llama3-)
 
@@ -41,9 +41,9 @@ Here are some of my selected projects:
 
 ## Physics Research (Past Work)
 
-## Non-singular String Cosmology with Matter Sources via all Order \( \alpha^\prime \) Corrections
+## Non-singular String Cosmology with Matter Sources via all Order alpha prime  Corrections
 - Conducted background research on classical singularities in cosmology. 
-- Studied string-theoretic corrections in non-singular cosmology via \( \alpha^\prime \) expansion and derived kinematic equations describing cosmic evolution. 
+- Studied string-theoretic corrections in non-singular cosmology via alpha prime expansion and derived kinematic equations describing cosmic evolution. 
 - Solved equations using Wolfram Mathematica and visualized solution trends for matter-driven cosmological models. 
 
 [Paper Draft](#)
