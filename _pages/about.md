@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master’s student in Software Engineering Systems at Northeastern University. My research focuses on large language models (LLMs), with an emphasis on parameter-efficient fine-tuning (LoRA), distributed training, and reinforcement learning for alignment. I am particularly interested in bridging high-performance computing with LLM optimization to improve efficiency and scalability.
+I am a Master’s student in Software Engineering Systems at Northeastern University with experience in machine learning, deep learning, and large language models (LLMs). I enjoy exploring how different models work — their structures, principles, and ways to improve their performance. I believe AI, especially LLMs, has vast potential but also many open challenges. I aim to explore and address these challenges, enjoying the process of research while working toward more efficient models that can be applied across science, engineering, and beyond.
 
 Research Interesting
 ======
