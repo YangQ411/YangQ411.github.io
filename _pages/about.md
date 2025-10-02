@@ -21,3 +21,10 @@ AI for Science
 ------
 
 I explore how machine learning and large language models can accelerate scientific discovery, particularly in physics. My past work includes modeling string cosmology and black hole thermodynamics, and I aim to leverage HPC and AI methods to address complex problems in scientific research.
+
+Explore More
+======
+- 📄 [Publications](/publications) — Selected papers and preprints
+- 🧪 [Projects](/projects) — Research and applied projects
+- 🎓 [Education](/education) — Academic background and skills
+- 🙋 [About Me](/about-me) — More info about me (research style, personal traits, and my future outlook)
