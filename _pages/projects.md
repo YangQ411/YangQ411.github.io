@@ -20,10 +20,11 @@ Here are some of my selected projects:
 ---
 
 ## Personalized Chatbot with RLHF
-- Designing a domain-specific chatbox capable of emulating the style of a renowned economist to address targeted economic questions.  
-- Leveraging a pretrained LLaMA-3 model as the base system and extending it with reinforcement learning methods (PPO/DPO) for alignment.  
-- Planning to integrate preference-based reward modeling to refine responses toward domain-specific quality and consistency.  
-- Expected outcome: demonstrate the effectiveness of RLHF/DPO for style emulation and domain adaptation, highlighting practical applications of aligned LLMs.
+- Exploring the design of a domain-specific chatbot capable of emulating the style of a renowned economist to answer targeted economic questions.  
+- Using a pretrained model as the foundation and extending it with reinforcement learning methods (PPO/DPO) for alignment. 
+- Planning to integrate preference-based reward modeling to improve the quality, consistency, and style-adaptation of chatbot responses.  
+- The goal is to showcase the effectiveness of RLHF/DPO for style emulation and domain adaptation, highlighting how aligned LLMs can serve as practical tools in specialized domains.
+- (Ongoing project: results and demos will be shared once available.)
 
 [GitHub Repo](https://github.com/YangQ411/llama-lora-study)
 
