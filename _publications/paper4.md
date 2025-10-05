@@ -1,13 +1,13 @@
 ---
-title: "Comparative Study of LoRA placement Strategies for Parameter-Efficient Fine-Tuning of LLMs"
+title: "Towards Efficient Fine-Tuning: An Evaluation of LoRA Placement in LLMs"
 collection: publications
 category: llm
 permalink: /publication/paper4
 status: in_preparation
-excerpt: 'Provides a systematic comparison of different LoRA placement strategies across multiple LLMs, evaluating accuracy, efficiency, throughput, and memory trade-offs, and offering recommended strategies under different optimization objectives.'
+excerpt: 'Develops a unified framework for analyzing LoRA placement across large language models, jointly evaluating accuracy, efficiency, and memory trade-offs to identify optimal fine-tuning strategies under different resource constraints'
 date: 2025-02-17
 venue: 'GitHub Journal of Bugs'
 paperurl: ''
 ---
 
-**Abstract:** The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+**Abstract:** Due to the double-blind review policy of the submission process, detailed information about this paper cannot be publicly shared at this stage.  Once the review process is complete, we will update this section with the final paper details, results, and related resources.
