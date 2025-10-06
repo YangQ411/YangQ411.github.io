@@ -19,7 +19,7 @@ Here are some of my selected projects:
 
 ---
 
-## Personalized Chatbot with RLHF
+## Personalized Chatbot with RLHF (Ongoing project)
 - Exploring the design of a domain-specific chatbot capable of emulating the style of a renowned economist to answer targeted economic questions.  
 - Using a pretrained model as the foundation and extending it with reinforcement learning methods (PPO/DPO) for alignment. 
 - Planning to integrate preference-based reward modeling to improve the quality, consistency, and style-adaptation of chatbot responses.  
