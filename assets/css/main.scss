@@ -44,16 +44,18 @@
 
 /* === 自定义头像显示样式 === */
 .author__avatar {
-  width: 190px;
-  margin-top: 5px;                     
+  width: 230px;
+  margin-top: 10px;                     
 }
 
 .author__avatar img {
-  width: 300px;
-  height: 350px;
-  object-fit: cover;                 /* 让头像填满圆形、不被拉伸 */
-  object-position: 50% 40%;          /* 调整取景（左右上下移动） */
-  border-radius: 18px;                /* 保持圆形 */
-  border: 1.5px solid #eaeaea;         /* 可选边框 */
-  box-shadow: 0 3px 10px rgba(0,0,0,.08);  /* 可选阴影 */
+  width: 230px;
+  height: auto;               /* 自动保持比例 */
+  object-fit: contain;        /* 保留完整图片（不裁剪） */
+  object-position: center top;/* 轻微上移取景 */
+  border-radius: 14px;        /* 柔和圆角 */
+  border: 1px solid #e0e0e0;  /* 轻边框 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* 微阴影 */
+  background-color: #fafafa;  /* 背景填充，避免透明边 */
+  padding: 3px;               /* 让图片“呼吸”一点 */
 }
