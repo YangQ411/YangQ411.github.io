@@ -5,7 +5,7 @@ category: llm
 permalink: /publication/paper4
 status: in_preparation
 excerpt: 'Develops a unified framework for analyzing LoRA placement across large language models, jointly evaluating accuracy, efficiency, and memory trade-offs to identify optimal fine-tuning strategies under different resource constraints'
-date: 2025-02-17
+date: 
 venue: 'Under review at a top-tier NLP venue (via ACL Rolling Review)'
 paperurl: ''
 ---
