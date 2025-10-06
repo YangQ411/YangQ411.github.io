@@ -41,3 +41,18 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* === 自定义头像显示样式 === */
+.author__avatar {
+  width: 140px;                      /* 控制整体大小，可改 120–160 */
+}
+
+.author__avatar img {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;                 /* 让头像填满圆形、不被拉伸 */
+  object-position: 50% 30%;          /* 调整取景（左右上下移动） */
+  border-radius: 16px;                /* 保持圆形 */
+  border: 2px solid #eaeaea;         /* 可选边框 */
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);  /* 可选阴影 */
+}
