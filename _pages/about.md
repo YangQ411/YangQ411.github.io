@@ -7,13 +7,22 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master’s student in Software Engineering Systems at Northeastern University with experience in machine learning, deep learning, and large language models (LLMs). I enjoy exploring how different models work — their structures, principles, and ways to improve their performance. I believe AI, especially LLMs, has vast potential but also many open challenges. I aim to explore and address these challenges, enjoying the process of research while working toward more efficient models that can be applied across science, engineering, and beyond.
+I am a Master’s student in Software Engineering Systems at Northeastern University with experience in machine learning, deep learning, and large language models (LLMs). I enjoy exploring how different models work — their structures, underlying principles, and ways to enhance their performance. I believe that AI, especially LLMs, holds tremendous potential but also presents many open challenges. My goal is to explore and address these challenges through research, working toward more efficient and generalizable models that can advance applications across science, engineering, and beyond.
 
 Research Interesting
 ======
 
 Large Language Model
 -----
+My research interests broadly focus on **the development, understanding, and optimization various aspects of large language models (LLMs)**, integrating both theoretical insights and practical systems work. Specifically, I am interested in:  
+
+- **Model architecture and representation** — studying how structural choices such as modular design affect model capability and interpretability.
+
+- **Model performance and efficiency** — researching efficient methods (e.g., PEFT) to improve model performance and efficiency while reducing the resource costs caused by large parameter counts.
+
+- **Alignment and learning dynamics** — studying how alignment methods (e.g., DPO, PPO in RLHF) can produce models that better align with specific goals and human intent.
+
+My long-term goal is to bridge **theoretical understanding and practical optimization of LLMs**, developing principled methods that make large models more efficient, interpretable, and aligned with human objectives.
 
 
 
