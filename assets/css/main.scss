@@ -44,15 +44,16 @@
 
 /* === 自定义头像显示样式 === */
 .author__avatar {
-  width: 140px;                      /* 控制整体大小，可改 120–160 */
+  width: 200px;
+  margin-top: 5px;                     
 }
 
 .author__avatar img {
-  width: 170px;
-  height: 230px;
+  width: 200px;
+  height: 270px;
   object-fit: cover;                 /* 让头像填满圆形、不被拉伸 */
-  object-position: 50% 30%;          /* 调整取景（左右上下移动） */
+  object-position: 50% 25%;          /* 调整取景（左右上下移动） */
   border-radius: 18px;                /* 保持圆形 */
-  border: 2px solid #eaeaea;         /* 可选边框 */
-  box-shadow: 0 2px 8px rgba(0,0,0,.08);  /* 可选阴影 */
+  border: 1.5px solid #eaeaea;         /* 可选边框 */
+  box-shadow: 0 3px 10px rgba(0,0,0,.08);  /* 可选阴影 */
 }
