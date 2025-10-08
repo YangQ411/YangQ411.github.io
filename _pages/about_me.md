@@ -27,7 +27,7 @@ author_profile: true
 
 ---
 
-### Personal Interests
+## Personal Interests
 - Enjoy running and fitness training, which help me stay energetic, focused, and balanced in research.  
 - Enjoy drawing and music, relax myself, clear my mind, and cultivate patience and creativity.  
 - Value maintaining both physical and mental well-being, which I believe supports long-term scientific productivity.
