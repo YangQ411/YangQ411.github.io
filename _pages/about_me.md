@@ -5,14 +5,29 @@ author_profile: true
 ---
 
 ## Research Style:
-I am deeply interested in exploring methods and the underlying principles of models, with a particular emphasis on approaching problems from a mathematical perspective. I believe that rigorous theoretical analysis provides a clear and logical reasoning path, which, when combined with practical experimentation, leads to more solid and impactful research outcomes. Mathematics, in my view, is not only a tool but also a guiding framework for building and understanding models.
+- Interested in exploring methods and the underlying principles of models, with a focus on approaching problems from a mathematical and theoretical perspective.  
+- Believe that rigorous theoretical reasoning, when combined with practical experimentation, leads to more solid and impactful research outcomes.  
+- View mathematics not only as a tool but also as a guiding framework for building and understanding models.
 
 ---
 
 ## Personal Traits:
-I enjoy exchanging and sharing ideas, as I believe that meaningful research often emerges from the spark of intellectual discussions. I frequently generate new ideas and value the process of discussing them with advisors and peers, which often inspires fresh directions. I am highly self-motivated and like to push myself toward achieving set research goals, finding satisfaction in the process of discovery. I look forward to collaborating with future colleagues and mentors, listening to diverse perspectives, and generating novel research topics through such exchanges.
+- Enjoy exchanging and discussing ideas, believing that meaningful research idea often arises from intellectual discussions.
+- Frequently generate new ideas through discussions with advisors and peers, often inspiring novel research directions.  
+- Highly self-motivated and goal-oriented, finding satisfaction in the process of discovery and continuous improvement.  
+- Value open-minded collaboration, listening to diverse perspectives to explore new and creative research topics.
 
 ---
 
 ## Future Outlook:
-My current research focuses on large language models (LLMs), starting from analyzing their structures and principles to developing methods that address current challenges, with the goal of creating more efficient, reliable, and generalizable models. Beyond this, I am excited about the application of AI in scientific domains, such as physics. My previous work in gravitational theory and string theory has sparked ideas on how advanced AI models could be leveraged to address complex scientific problems. In the long term, I hope to contribute to developing methods and models that not only advance AI itself but also serve as powerful tools for accelerating scientific discovery.
+- Current research focuses on **large language models (LLMs)** — analyzing their structures and principles to develop methods that address current challenges in efficiency, reliability, and generalization.  
+- Excited about applying AI in **scientific domains** such as physics, where advanced models can contribute to solving complex theoretical problems.  
+- Previous work in gravitational theory and string theory has inspired ideas on how AI models could accelerate scientific discovery.  
+- Long-term goal: develop methods and models that not only advance AI itself but also serve as powerful tools for scientific research and innovation.
+
+---
+
+### Personal Interests
+- Enjoy running and fitness training, which help me stay energetic, focused, and balanced in research.  
+- Enjoy drawing and music, relax myself, clear my mind, and cultivate patience and creativity.  
+- Value maintaining both physical and mental well-being, which I believe supports long-term scientific productivity.
