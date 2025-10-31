@@ -19,14 +19,15 @@ Here are some of my selected projects:
 
 ---
 
-## Personalized Chatbot with RLHF (Ongoing project)
-- Exploring the design of a domain-specific chatbot capable of emulating the style of a renowned economist to answer targeted economic questions.  
-- Using a pretrained model as the foundation and extending it with reinforcement learning methods (PPO/DPO) for alignment. 
-- Planning to integrate preference-based reward modeling to improve the quality, consistency, and style-adaptation of chatbot responses.  
-- The goal is to showcase the effectiveness of RLHF/DPO for style emulation and domain adaptation, highlighting how aligned LLMs can serve as practical tools in specialized domains.
-- (Ongoing project: results and demos will be shared once available.)
+## Personalized Chatbot with RLHF (Livermore-RLHF Project)
+- Designed a domain-specific chatbot that emulates the analytical tone and decision logic of economist Jesse Livermore, capable of reasoning over risk management, psychology, and strategy.
+- Developed a full RLHF pipeline — Base Model → SFT (LoRA) → DPO → Evaluation → Gradio UI — to progressively align pretrained Llama3.2-1B toward Livermore-style reasoning.
+- Fine-tuned with 1.4k SFT pairs and 600 DPO preference pairs generated from Reminiscences of a Stock Operator.
+- Implemented GPT-4-based LLM-as-a-Judge evaluation to assess stylistic fidelity, achieving +27 % improvement in coherence and +32 % in decision quality over the SFT baseline.
+- Built an interactive Gradio Chatbox UI demonstrating persona-aligned reasoning for research and educational use.
+- Trained and tested on NVIDIA H100 (80 GB) GPUs under optimized mixed-precision and distributed setups.
 
-[GitHub Repo](https://github.com/YangQ411/llama-lora-study)
+[GitHub Repo](https://github.com/YangQ411/Livermore-RLHF.git)
 
 ---
 
