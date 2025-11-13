@@ -19,6 +19,16 @@ Here are some of my selected projects:
 
 ---
 
+## From-Scratch Direct Preference Optimization (DPO)
+- Reimplemented **Direct Preference Optimization (DPO)** entirely from scratch, following the mathematical formulation and token-level log-ratio objective described in the original paper.
+- Built a matched HF TRL baseline to benchmark loss trajectories, alignment accuracy, and reward-margin behavior.
+- Achieved comparable convergence to HF-DPO on loss and accuracy, with stronger reward-margin separation.
+- Released clean code and visual comparisons to support future RLHF research.
+
+[GitHub Repo](https://github.com/YangQ411/dpo-scratch.git)
+
+---
+
 ## Personalized Chatbot with RLHF (Livermore-RLHF Project)
 - Designed a domain-specific chatbot that emulates the analytical tone and decision logic of economist Jesse Livermore, capable of reasoning over risk management, psychology, and strategy.
 - Developed a full RLHF pipeline — Base Model → SFT (LoRA) → DPO → Evaluation → Gradio UI — to progressively align pretrained Llama3.2-1B toward Livermore-style reasoning.
