@@ -16,21 +16,17 @@ Large Language Model
 -----
 My research interests broadly focus on **the development, understanding, and optimization various aspects of large language models (LLMs)**, integrating both theoretical insights and practical systems work. Specifically, I am interested in:  
 
-- **Model architecture and representation** — studying how structural choices such as modular design affect model capability and interpretability.
+- **LLM Post-training and Optimization:** Developing post-training and optimization methods to improve the performance, efficiency, and usability of large language models.
 
-- **Model performance and efficiency** — researching efficient methods (e.g., PEFT) to improve model performance and efficiency while reducing the resource costs caused by large parameter counts.
+- **Reinforcement Learning for LLMs:** Studying reinforcement learning algorithms, from their mathematical structure to practical applications, to improve alignment, instruction following, and general model behavior.
 
-- **Alignment and learning dynamics** — studying how alignment methods (e.g., DPO, PPO in RLHF) can produce models that better align with specific goals and human intent.
-
-My long-term goal is to bridge **theoretical understanding and practical optimization of LLMs**, developing principled methods that make large models more efficient, interpretable, and aligned with human objectives.
-
+- **Reinforcement Learning for Reasoning:** Investigating the reasoning ability of large language models, with the goal of developing principled mathematical criteria for reasoning processes and using RL-based methods to improve LLM reasoning performance.
 
 
 AI for Science
 ------
-
 -  **Applying LLMs and AI models to scientific domains** — exploring how artificial intelligence can assist in solving complex problems in science research such as physics, mathematics, and other scientific fields.  
-- **Building new models and algorithms for scientific research** — developing computational frameworks and models that to promote new discoveries and theoretical advancements.
+- **AI for Scientific Discovery:** Applying AI methods, including language models and deep learning, to scientific problems, especially in theoretical physics, with the goal of providing new tools, perspectives, and methods for scientific reasoning and discovery.
 
 Explore More
 ======
