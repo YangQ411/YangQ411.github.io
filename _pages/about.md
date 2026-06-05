@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master’s student in Software Engineering Systems at Northeastern University with experience in machine learning, deep learning, and large language models (LLMs). I enjoy exploring how different models work — their structures, underlying principles, and ways to enhance their performance. I believe that AI, especially LLMs, holds tremendous potential but also presents many open challenges. My goal is to explore and address these challenges through research, working toward more efficient and generalizable models that can advance applications across science, engineering, and beyond.
+I am a Master's student in Software Engineering Systems at Northeastern University, working toward research in artificial intelligence and large language models. I am interested in understanding how intelligent systems can be made more capable, efficient, and reliable, especially when they are used for reasoning-intensive tasks. Through my recent projects, I have been exploring large language models from both methodological and application-oriented perspectives, including efficient model adaptation, reinforcement learning, and AI-assisted scientific discovery. My long-term goal is to develop AI systems that are not only strong in performance, but also better understood, more controllable, and more useful for complex reasoning and scientific discovery.
 
 Research Interests
 ======
