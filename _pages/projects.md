@@ -11,36 +11,46 @@ Here are selected research projects related to large language models, reinforcem
 ## Featured Research Projects
 
 <div class="project-card">
-  <img src="/images/projects/Reatrace.png" alt="ReaTrace Project" class="project-img">
+  <div class="project-image">
+    <img src="/images/projects/Reatrace.png" alt="ReaTrace Project">
+  </div>
 
-  <div class="project-content">
+  <div class="project-info">
+    <h3>ReaTrace: Reasoning Trajectory Analysis for Large Language Models</h3>
 
-### ReaTrace: Reasoning Trajectory Analysis for Large Language Models
+    <p>
+      ReaTrace studies LLM reasoning as a structured state-transition trajectory rather than only evaluating final-answer correctness. The project aims to develop process-level metrics for analyzing how information, constraints, uncertainty, and unresolved problem structure evolve across intermediate reasoning steps.
+    </p>
 
-ReaTrace studies LLM reasoning as a structured state-transition trajectory rather than only evaluating final-answer correctness. The project aims to develop process-level metrics for analyzing how information, constraints, uncertainty, and unresolved problem structure evolve across intermediate reasoning steps.
+    <p class="project-keywords">
+      <strong>Keywords:</strong> LLM reasoning, reasoning trajectory, process-level evaluation, uncertainty reduction, constraint accumulation
+    </p>
 
-**Keywords:** LLM reasoning, reasoning trajectory, process-level evaluation, uncertainty reduction, constraint accumulation
-
-[GitHub Repo](https://github.com/YangQ411/ReaTrace-Reasoning-Trajectory-Analyzer)
-
+    <p>
+      <a href="https://github.com/YangQ411/ReaTrace-Reasoning-Trajectory-Analyzer">GitHub Repo</a>
+    </p>
   </div>
 </div>
 
----
-
 <div class="project-card">
-  <img src="/images/projects/StringCosmo.png" alt="AI for Scientific Discovery Project" class="project-img">
+  <div class="project-image">
+    <img src="/images/projects/StringCosmo.png" alt="AI for Scientific Discovery Project">
+  </div>
 
-  <div class="project-content">
+  <div class="project-info">
+    <h3>AI-Assisted Scientific Discovery in Gravitational and Cosmological Models</h3>
 
-### AI-Assisted Scientific Discovery in Gravitational and Cosmological Models
+    <p>
+      This project explores whether AI-guided systems can assist in discovering analytical structures under mathematical and physical constraints. It combines candidate generation, symbolic verification, and physical filtering to search for valid solution forms in theoretical physics and cosmology.
+    </p>
 
-This project explores whether AI-guided systems can assist in discovering analytical structures under mathematical and physical constraints. It combines candidate generation, symbolic verification, and physical filtering to search for valid solution forms in theoretical physics and cosmology.
+    <p class="project-keywords">
+      <strong>Keywords:</strong> AI for Science, theoretical physics, symbolic reasoning, analytical structure discovery, verification-guided search
+    </p>
 
-**Keywords:** AI for Science, theoretical physics, symbolic reasoning, analytical structure discovery, verification-guided search
-
-[GitHub Repo](https://github.com/YangQ411/StringCosmoAI)
-
+    <p>
+      <a href="https://github.com/YangQ411/StringCosmoAI">GitHub Repo</a>
+    </p>
   </div>
 </div>
 
@@ -49,54 +59,68 @@ This project explores whether AI-guided systems can assist in discovering analyt
 ## Selected LLM Projects
 
 <div class="project-card">
-  <img src="/images/projects/lora_parallel_llama.png" alt="LoRA and Distributed Training Project" class="project-img">
+  <div class="project-image">
+    <img src="/images/projects/lora_parallel_llama.png" alt="LoRA and Distributed Training Project">
+  </div>
 
-  <div class="project-content">
+  <div class="project-info">
+    <h3>Efficient Fine-Tuning and Distributed Optimization for Large Language Models</h3>
 
-### Efficient Fine-Tuning and Distributed Optimization for Large Language Models
+    <p>
+      Explored LoRA fine-tuning, mixed-precision training, and distributed optimization strategies for LLaMA 3.2-1B. This project evaluates trade-offs among model performance, training throughput, and memory usage under practical computational constraints.
+    </p>
 
-Explored LoRA fine-tuning, mixed-precision training, and distributed optimization strategies for LLaMA 3.2-1B. This project evaluates trade-offs among model performance, training throughput, and memory usage under practical computational constraints.
+    <p class="project-keywords">
+      <strong>Keywords:</strong> LoRA, PEFT, mixed precision, DDP, FSDP, efficient LLMs
+    </p>
 
-**Keywords:** LoRA, PEFT, mixed precision, DDP, FSDP, efficient LLMs
-
-[GitHub Repo](https://github.com/YangQ411/Hybrid-Fine-Tuning-and-Parallelism-Training-for-Llama3-)
-
+    <p>
+      <a href="https://github.com/YangQ411/Hybrid-Fine-Tuning-and-Parallelism-Training-for-Llama3-">GitHub Repo</a>
+    </p>
   </div>
 </div>
 
----
-
 <div class="project-card">
-  <img src="/images/projects/dpo_scratch.png" alt="DPO from Scratch Project" class="project-img">
+  <div class="project-image">
+    <img src="/images/projects/dpo_scratch.png" alt="DPO from Scratch Project">
+  </div>
 
-  <div class="project-content">
+  <div class="project-info">
+    <h3>From-Scratch Direct Preference Optimization</h3>
 
-### From-Scratch Direct Preference Optimization
+    <p>
+      Reimplemented Direct Preference Optimization from scratch to better understand the mathematical formulation and training behavior of preference-based language model optimization. This project serves as a foundation for studying RLHF, preference learning, and RL-based LLM alignment.
+    </p>
 
-Reimplemented Direct Preference Optimization from scratch to better understand the mathematical formulation and training behavior of preference-based language model optimization. This project serves as a foundation for studying RLHF, preference learning, and RL-based LLM alignment.
+    <p class="project-keywords">
+      <strong>Keywords:</strong> DPO, preference optimization, RLHF, alignment, policy optimization
+    </p>
 
-**Keywords:** DPO, preference optimization, RLHF, alignment, policy optimization
-
-[GitHub Repo](https://github.com/YangQ411/dpo-scratch.git)
-
+    <p>
+      <a href="https://github.com/YangQ411/dpo-scratch.git">GitHub Repo</a>
+    </p>
   </div>
 </div>
 
----
-
 <div class="project-card">
-  <img src="/images/projects/LiverMore.png" alt="Livermore RLHF Project" class="project-img">
+  <div class="project-image">
+    <img src="/images/projects/LiverMore.png" alt="Livermore RLHF Project">
+  </div>
 
-  <div class="project-content">
+  <div class="project-info">
+    <h3>Personalized Chatbot with RLHF</h3>
 
-### Personalized Chatbot with RLHF
+    <p>
+      Built a domain-specific RLHF pipeline for a personalized chatbot, including supervised fine-tuning, preference optimization, evaluation, and an interactive Gradio interface. The project explores how preference-based training can align a language model toward a specific reasoning style and decision logic.
+    </p>
 
-Built a domain-specific RLHF pipeline for a personalized chatbot, including supervised fine-tuning, preference optimization, evaluation, and an interactive Gradio interface. The project explores how preference-based training can align a language model toward a specific reasoning style and decision logic.
+    <p class="project-keywords">
+      <strong>Keywords:</strong> RLHF, DPO, SFT, persona alignment, LLaMA, Gradio
+    </p>
 
-**Keywords:** RLHF, DPO, SFT, persona alignment, LLaMA, Gradio
-
-[GitHub Repo](https://github.com/YangQ411/Livermore-RLHF.git)
-
+    <p>
+      <a href="https://github.com/YangQ411/Livermore-RLHF.git">GitHub Repo</a>
+    </p>
   </div>
 </div>
 
@@ -124,34 +148,45 @@ Studied non-singular cosmological solutions in string theory with matter sources
 
 Explored quasi-topological gravity structures motivated by string theory and their cosmological implications.
 
-
 <style>
 .project-card {
   display: flex;
   gap: 24px;
   align-items: flex-start;
-  margin: 28px 0 34px 0;
+  margin: 32px 0;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #eaeaea;
 }
 
-.project-img {
-  width: 220px;
-  max-width: 220px;
-  border-radius: 8px;
+.project-image {
+  flex: 0 0 230px;
+}
+
+.project-image img {
+  width: 230px;
+  max-width: 230px;
+  border-radius: 6px;
   border: 1px solid #e5e5e5;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-.project-content {
+.project-info {
   flex: 1;
 }
 
-.project-content h3 {
+.project-info h3 {
   margin-top: 0;
   margin-bottom: 10px;
+  font-size: 1.05em;
 }
 
-.project-content p {
+.project-info p {
   margin-bottom: 10px;
+  line-height: 1.55;
+}
+
+.project-keywords {
+  font-size: 0.95em;
 }
 
 @media (max-width: 768px) {
@@ -159,7 +194,12 @@ Explored quasi-topological gravity structures motivated by string theory and the
     flex-direction: column;
   }
 
-  .project-img {
+  .project-image {
+    flex: none;
+    width: 100%;
+  }
+
+  .project-image img {
     width: 100%;
     max-width: 100%;
   }
