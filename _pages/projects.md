@@ -22,10 +22,6 @@ Here are selected research projects related to large language models, reinforcem
       ReaTrace studies LLM reasoning as a structured state-transition trajectory rather than only evaluating final-answer correctness. The project aims to develop process-level metrics for analyzing how information, constraints, uncertainty, and unresolved problem structure evolve across intermediate reasoning steps.
     </p>
 
-    <p class="project-keywords">
-      <strong>Keywords:</strong> LLM reasoning, reasoning trajectory, process-level evaluation, uncertainty reduction, constraint accumulation
-    </p>
-
     <p>
       <a href="https://github.com/YangQ411/ReaTrace-Reasoning-Trajectory-Analyzer">GitHub Repo</a>
     </p>
@@ -42,10 +38,6 @@ Here are selected research projects related to large language models, reinforcem
 
     <p>
       This project explores whether AI-guided systems can assist in discovering analytical structures under mathematical and physical constraints. It combines candidate generation, symbolic verification, and physical filtering to search for valid solution forms in theoretical physics and cosmology.
-    </p>
-
-    <p class="project-keywords">
-      <strong>Keywords:</strong> AI for Science, theoretical physics, symbolic reasoning, analytical structure discovery, verification-guided search
     </p>
 
     <p>
@@ -70,10 +62,6 @@ Here are selected research projects related to large language models, reinforcem
       Explored LoRA fine-tuning, mixed-precision training, and distributed optimization strategies for LLaMA 3.2-1B. This project evaluates trade-offs among model performance, training throughput, and memory usage under practical computational constraints.
     </p>
 
-    <p class="project-keywords">
-      <strong>Keywords:</strong> LoRA, PEFT, mixed precision, DDP, FSDP, efficient LLMs
-    </p>
-
     <p>
       <a href="https://github.com/YangQ411/Hybrid-Fine-Tuning-and-Parallelism-Training-for-Llama3-">GitHub Repo</a>
     </p>
@@ -92,10 +80,6 @@ Here are selected research projects related to large language models, reinforcem
       Reimplemented Direct Preference Optimization from scratch to better understand the mathematical formulation and training behavior of preference-based language model optimization. This project serves as a foundation for studying RLHF, preference learning, and RL-based LLM alignment.
     </p>
 
-    <p class="project-keywords">
-      <strong>Keywords:</strong> DPO, preference optimization, RLHF, alignment, policy optimization
-    </p>
-
     <p>
       <a href="https://github.com/YangQ411/dpo-scratch.git">GitHub Repo</a>
     </p>
@@ -112,10 +96,6 @@ Here are selected research projects related to large language models, reinforcem
 
     <p>
       Built a domain-specific RLHF pipeline for a personalized chatbot, including supervised fine-tuning, preference optimization, evaluation, and an interactive Gradio interface. The project explores how preference-based training can align a language model toward a specific reasoning style and decision logic.
-    </p>
-
-    <p class="project-keywords">
-      <strong>Keywords:</strong> RLHF, DPO, SFT, persona alignment, LLaMA, Gradio
     </p>
 
     <p>
@@ -173,10 +153,6 @@ Developed a customized evaluation framework combining standard metrics and LLM-a
 .project-info p {
   margin-bottom: 10px;
   line-height: 1.55;
-}
-
-.project-keywords {
-  font-size: 0.95em;
 }
 
 @media (max-width: 768px) {
