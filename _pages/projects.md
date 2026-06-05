@@ -53,19 +53,3 @@ Here are some of my selected projects:
 
 ---
 
-## Physics Research (Past Work)
-
-## Non-singular String Cosmology with Matter Sources via All-order α′ Corrections
-- Investigated the cosmological singularity problem in string theory with matter sources. 
-- Derived O(d,d)-covariant equations of motion including all-order α′ corrections, generalizing known vacuum results. 
-- Constructed perturbative and non-perturbative solutions, showing smooth evolution without singularities. 
-- Discussed implications of higher-derivative string corrections for early-universe cosmological models.
-- Manuscript in preparation — available upon request.
-
----
-
-## Derive Quasi-topological Gravity from String Theory in Cosmological Background
-- Conducted a literature review of quasi-topological gravity and its relation to Lovelock’s theory of gravity from string theory.  
-- Calculated curvature tensors using a self-developed Python program and validated calculations against theoretical models. 
-- Derived quasi-topological gravity from string theory in the cosmological background.
-- Drafted preliminary manuscript, highlighting potential connections between higher-order gravity corrections and cosmology.  
