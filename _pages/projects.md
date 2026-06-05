@@ -4,52 +4,165 @@ permalink: /projects/
 author_profile: true 
 ---
 
-Here are some of my selected projects:
+Here are selected research projects related to large language models, reinforcement learning, reasoning, and AI for scientific discovery.
 
-## Large Language Models (LLMs)
+---
 
-## Explored efficient fine-tuning and distributed optimization strategies for Large Language Models    
-- Selected Llama 3.2-1B and applied **LoRA** to attention layers on the OpenOrca dataset. 
-- Implemented and evaluated mixed-precision training (**FP32, FP16, BF16**), achieving ~**5×** throughput improvement and ~**20%** GPU memory savings.
-- Compared parallel training methods (**DDP vs. FSDP**), identifying efficiency–scalability trade-offs across cluster sizes.
-- Accelerated preprocessing with Dask + SLURM, reducing tokenization time by over **50%**.
-- Deployed a Gradio chatbot demo to showcase fine-tuned model interaction.
+## Featured Research Projects
+
+<div class="project-card">
+  <img src="/images/projects/Reatrace.png" alt="ReaTrace Project" class="project-img">
+
+  <div class="project-content">
+
+### ReaTrace: Reasoning Trajectory Analysis for Large Language Models
+
+ReaTrace studies LLM reasoning as a structured state-transition trajectory rather than only evaluating final-answer correctness. The project aims to develop process-level metrics for analyzing how information, constraints, uncertainty, and unresolved problem structure evolve across intermediate reasoning steps.
+
+**Keywords:** LLM reasoning, reasoning trajectory, process-level evaluation, uncertainty reduction, constraint accumulation
+
+[GitHub Repo](https://github.com/YangQ411/ReaTrace-Reasoning-Trajectory-Analyzer)
+
+  </div>
+</div>
+
+---
+
+<div class="project-card">
+  <img src="/images/projects/StringCosmo.png" alt="AI for Scientific Discovery Project" class="project-img">
+
+  <div class="project-content">
+
+### AI-Assisted Scientific Discovery in Gravitational and Cosmological Models
+
+This project explores whether AI-guided systems can assist in discovering analytical structures under mathematical and physical constraints. It combines candidate generation, symbolic verification, and physical filtering to search for valid solution forms in theoretical physics and cosmology.
+
+**Keywords:** AI for Science, theoretical physics, symbolic reasoning, analytical structure discovery, verification-guided search
+
+[GitHub Repo](https://github.com/YangQ411/StringCosmoAI)
+
+  </div>
+</div>
+
+---
+
+## Selected LLM Projects
+
+<div class="project-card">
+  <img src="/images/projects/lora_parallel_llama.png" alt="LoRA and Distributed Training Project" class="project-img">
+
+  <div class="project-content">
+
+### Efficient Fine-Tuning and Distributed Optimization for Large Language Models
+
+Explored LoRA fine-tuning, mixed-precision training, and distributed optimization strategies for LLaMA 3.2-1B. This project evaluates trade-offs among model performance, training throughput, and memory usage under practical computational constraints.
+
+**Keywords:** LoRA, PEFT, mixed precision, DDP, FSDP, efficient LLMs
 
 [GitHub Repo](https://github.com/YangQ411/Hybrid-Fine-Tuning-and-Parallelism-Training-for-Llama3-)
 
+  </div>
+</div>
+
 ---
 
-## From-Scratch Direct Preference Optimization (DPO)
-- Reimplemented **Direct Preference Optimization (DPO)** entirely from scratch, following the mathematical formulation and token-level log-ratio objective described in the original paper.
-- Built a matched HF TRL baseline to benchmark loss trajectories, alignment accuracy, and reward-margin behavior.
-- Achieved comparable convergence to HF-DPO on loss and accuracy, with stronger reward-margin separation.
-- Released clean code and visual comparisons to support future RLHF research.
+<div class="project-card">
+  <img src="/images/projects/dpo_scratch.png" alt="DPO from Scratch Project" class="project-img">
+
+  <div class="project-content">
+
+### From-Scratch Direct Preference Optimization
+
+Reimplemented Direct Preference Optimization from scratch to better understand the mathematical formulation and training behavior of preference-based language model optimization. This project serves as a foundation for studying RLHF, preference learning, and RL-based LLM alignment.
+
+**Keywords:** DPO, preference optimization, RLHF, alignment, policy optimization
 
 [GitHub Repo](https://github.com/YangQ411/dpo-scratch.git)
 
+  </div>
+</div>
+
 ---
 
-## Personalized Chatbot with RLHF (Livermore-RLHF Project)
-- Designed a domain-specific chatbot that emulates the analytical tone and decision logic of economist Jesse Livermore, capable of reasoning over risk management, psychology, and strategy.
-- Developed a full RLHF pipeline — Base Model → SFT (LoRA) → DPO → Evaluation → Gradio UI — to progressively align pretrained Llama3.2-1B toward Livermore-style reasoning.
-- Fine-tuned with 1.4k SFT pairs and 600 DPO preference pairs generated from Reminiscences of a Stock Operator.
-- Implemented GPT-4-based LLM-as-a-Judge evaluation to assess stylistic fidelity, achieving +27 % improvement in coherence and +32 % in decision quality over the SFT baseline.
-- Built an interactive Gradio Chatbox UI demonstrating persona-aligned reasoning for research and educational use.
-- Trained and tested on NVIDIA H100 (80 GB) GPUs under optimized mixed-precision and distributed setups.
+<div class="project-card">
+  <img src="/images/projects/LiverMore.png" alt="Livermore RLHF Project" class="project-img">
+
+  <div class="project-content">
+
+### Personalized Chatbot with RLHF
+
+Built a domain-specific RLHF pipeline for a personalized chatbot, including supervised fine-tuning, preference optimization, evaluation, and an interactive Gradio interface. The project explores how preference-based training can align a language model toward a specific reasoning style and decision logic.
+
+**Keywords:** RLHF, DPO, SFT, persona alignment, LLaMA, Gradio
 
 [GitHub Repo](https://github.com/YangQ411/Livermore-RLHF.git)
 
+  </div>
+</div>
+
 ---
 
-## LLM Evaluation Framework: Custom Benchmark and MT-Bench with LLM-as-a-Judge
-- Developed a customized evaluation pipeline by fine-tuning Llama-3 with LoRA on OpenOrca.  
-- Compared standard metrics (BLEU, ROUGE, Perplexity) with LLM-as-a-judge approaches using GPT-4. 
-- Created **InstructEval-200** (7 categories) and integrated MT-Bench for multi-turn dialogue evaluation  
-- Results showed +17% accuracy improvement on InstructEval-200 and **+10%** on MT-Bench, with particularly strong gains in STEM (**+40%**) and Humanities (**+27.5%**).
-- Findings across both benchmarks were consistent, reinforcing the validity of LLM-as-a-judge for instruction-following evaluation.
-- The framework and results are open-sourced, making the study reproducible for the community.
+## Other Projects
+
+### LLM Evaluation Framework
+
+Developed a customized evaluation framework combining standard metrics and LLM-as-a-judge evaluation for instruction-following and multi-turn dialogue assessment.
+
+**Keywords:** LLM evaluation, MT-Bench, LLM-as-a-judge, instruction following
 
 [GitHub Repo](https://github.com/YangQ411/LLM-Eval-Pipeline)
 
 ---
+
+## Previous Physics Research
+
+### Non-singular String Cosmology with Matter Sources via All-order α′ Corrections
+
+Studied non-singular cosmological solutions in string theory with matter sources and all-order α′ corrections.
+
+### Quasi-topological Gravity from String Theory in Cosmological Background
+
+Explored quasi-topological gravity structures motivated by string theory and their cosmological implications.
+
+
+<style>
+.project-card {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin: 28px 0 34px 0;
+}
+
+.project-img {
+  width: 220px;
+  max-width: 220px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.project-content {
+  flex: 1;
+}
+
+.project-content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-content p {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+</style>
 
