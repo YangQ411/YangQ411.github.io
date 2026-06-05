@@ -138,16 +138,6 @@ Developed a customized evaluation framework combining standard metrics and LLM-a
 
 ---
 
-## Previous Physics Research
-
-### Non-singular String Cosmology with Matter Sources via All-order α′ Corrections
-
-Studied non-singular cosmological solutions in string theory with matter sources and all-order α′ corrections.
-
-### Quasi-topological Gravity from String Theory in Cosmological Background
-
-Explored quasi-topological gravity structures motivated by string theory and their cosmological implications.
-
 <style>
 .project-card {
   display: flex;

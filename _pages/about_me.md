@@ -19,14 +19,6 @@ author_profile: true
 
 ---
 
-## Future Outlook:
-- Current research focuses on **large language models (LLMs)** — analyzing their structures and principles to develop methods that address current challenges in efficiency, reliability, and generalization.  
-- Excited about applying AI in **scientific domains** such as physics, where advanced models can contribute to solving complex theoretical problems.  
-- Previous work in gravitational theory and string theory has inspired ideas on how AI models could accelerate scientific discovery.  
-- Long-term goal: develop methods and models that not only advance AI itself but also serve as powerful tools for scientific research and innovation.
-
----
-
 ## Personal Interests
 - Enjoy running and fitness training, which help me stay energetic, focused, and balanced in research.  
 - Enjoy drawing and music, relax myself, clear my mind, and cultivate patience and creativity.  
