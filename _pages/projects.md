@@ -112,8 +112,6 @@ Here are selected research projects related to large language models, reinforcem
 
 Developed a customized evaluation framework combining standard metrics and LLM-as-a-judge evaluation for instruction-following and multi-turn dialogue assessment.
 
-**Keywords:** LLM evaluation, MT-Bench, LLM-as-a-judge, instruction following
-
 [GitHub Repo](https://github.com/YangQ411/LLM-Eval-Pipeline)
 
 ---
