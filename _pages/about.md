@@ -34,4 +34,3 @@ Explore More
 - [Publications](/publications) — Selected papers and preprints
 - [Projects](/projects) — Research and applied projects
 - [Education](/education) — Academic background and skills
-- [About Me](/about-me) — More info about me (research style, personal traits, and my future outlook)

@@ -8,8 +8,6 @@ Here are selected research projects related to large language models, reinforcem
 
 ---
 
-## Featured Research Projects
-
 <div class="project-card">
   <div class="project-image">
     <img src="/images/projects/Reatrace.png" alt="ReaTrace Project">
@@ -45,10 +43,6 @@ Here are selected research projects related to large language models, reinforcem
     </p>
   </div>
 </div>
-
----
-
-## Selected LLM Projects
 
 <div class="project-card">
   <div class="project-image">

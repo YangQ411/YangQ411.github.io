@@ -17,5 +17,5 @@ main:
   - title: "Education"
     url: /education/
     
-  - title: "About Me"
-    url: /about_me/
+  #- title: "About Me"
+  #  url: /about_me/
