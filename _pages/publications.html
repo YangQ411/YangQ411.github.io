@@ -14,68 +14,115 @@ author_profile: true
 
 {% include base_path %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign cat_key = category[0] %}
-    {% assign cat_title = category[1].title %}
-    {% assign cat_pubs = site.publications | where: "category", cat_key | sort: "date" | reverse %}
+<!-- ========================= -->
+<!-- AI and Machine Learning   -->
+<!-- ========================= -->
 
-    {% if cat_pubs.size > 0 %}
-      <h2 class="pub-section-title">{{ cat_title }}</h2>
+<h2 class="pub-section-title">AI and Machine Learning</h2>
 
-      {% assign buckets = "in_preparation|under_review|published" | split: "|" %}
+{% assign ai_pubs = site.publications | where_exp: "pub", "pub.category != 'physics'" | sort: "date" | reverse %}
+{% assign ai_buckets = "in_preparation|under_review|published" | split: "|" %}
 
-      {% for bucket in buckets %}
-        {% assign bucket_pubs = cat_pubs | where: "status", bucket %}
+{% for bucket in ai_buckets %}
+  {% assign bucket_pubs = ai_pubs | where: "status", bucket %}
 
-        {% if bucket_pubs.size > 0 %}
-          <h3 class="pub-subtitle">
-            {% case bucket %}
-              {% when "published" %}Published
-              {% when "under_review" %}Under Review
-              {% when "in_preparation" %}In Preparation
-            {% endcase %}
+  {% if bucket_pubs.size > 0 %}
+    <h3 class="pub-subtitle">
+      {% case bucket %}
+        {% when "in_preparation" %}In Preparation
+        {% when "under_review" %}Under Review
+        {% when "published" %}Published
+      {% endcase %}
+    </h3>
+
+    <div class="pub-list">
+      {% for pub in bucket_pubs %}
+        <div class="pub-item">
+
+          <h3 class="pub-title">
+            <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
           </h3>
 
-          <div class="pub-list">
-            {% for pub in bucket_pubs %}
-              <div class="pub-item">
+          <p class="pub-meta">
+            {% if pub.venue %}
+              <em>{{ pub.venue }}</em>,
+            {% endif %}
+            {{ pub.date | date: "%Y" }}
+          </p>
 
-                <h3 class="pub-title">
-                  <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
-                </h3>
+          {% if pub.excerpt %}
+            <p class="pub-excerpt">
+              {{ pub.excerpt }}
+            </p>
+          {% endif %}
 
-                <p class="pub-meta">
-                  {% if pub.venue %}
-                    <em>{{ pub.venue }}</em>,
-                  {% endif %}
-                  {{ pub.date | date: "%Y" }}
-                </p>
+          {% if pub.paperurl and pub.paperurl != "" %}
+            <p class="pub-links">
+              <a href="{{ pub.paperurl }}">PDF</a>
+            </p>
+          {% endif %}
 
-                {% if pub.excerpt %}
-                  <p class="pub-excerpt">
-                    {{ pub.excerpt }}
-                  </p>
-                {% endif %}
-
-                {% if pub.paperurl and pub.paperurl != "" %}
-                  <p class="pub-links">
-                    <a href="{{ pub.paperurl }}">PDF</a>
-                  </p>
-                {% endif %}
-
-              </div>
-            {% endfor %}
-          </div>
-        {% endif %}
+        </div>
       {% endfor %}
-    {% endif %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+
+<!-- ========================= -->
+<!-- Physics                   -->
+<!-- ========================= -->
+
+<h2 class="pub-section-title">Physics</h2>
+
+{% assign physics_pubs = site.publications | where: "category", "physics" | sort: "date" | reverse %}
+{% assign physics_buckets = "published|under_review|in_preparation" | split: "|" %}
+
+{% for bucket in physics_buckets %}
+  {% assign bucket_pubs = physics_pubs | where: "status", bucket %}
+
+  {% if bucket_pubs.size > 0 %}
+    <h3 class="pub-subtitle">
+      {% case bucket %}
+        {% when "published" %}Published
+        {% when "under_review" %}Under Review
+        {% when "in_preparation" %}In Preparation
+      {% endcase %}
+    </h3>
+
+    <div class="pub-list">
+      {% for pub in bucket_pubs %}
+        <div class="pub-item">
+
+          <h3 class="pub-title">
+            <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+          </h3>
+
+          <p class="pub-meta">
+            {% if pub.venue %}
+              <em>{{ pub.venue }}</em>,
+            {% endif %}
+            {{ pub.date | date: "%Y" }}
+          </p>
+
+          {% if pub.excerpt %}
+            <p class="pub-excerpt">
+              {{ pub.excerpt }}
+            </p>
+          {% endif %}
+
+          {% if pub.paperurl and pub.paperurl != "" %}
+            <p class="pub-links">
+              <a href="{{ pub.paperurl }}">PDF</a>
+            </p>
+          {% endif %}
+
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
+
 
 <style>
 .pub-section-title {
@@ -149,4 +196,3 @@ author_profile: true
   text-decoration: underline;
 }
 </style>
-
