@@ -3,7 +3,7 @@ title: "LSC-DPO: Learning-Signal-Controlled Direct Preference Optimization"
 collection: publications
 category: llm
 permalink: /publication/paper4
-status: submitted
+status: 
 excerpt: 'Proposes a learning-signal-controlled variant of Direct Preference Optimization that dynamically regulates the preference margin signal to improve training stability and alignment performance.'
 date: 2025-06-01
 venue: 'Submitted'
