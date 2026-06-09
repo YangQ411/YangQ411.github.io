@@ -11,7 +11,6 @@ author_profile: true
 Teaching & Academic Experience
 ======
 
-* Research Assistant, Northeastern University (Fall 2025 – Spring 2026)
 * Teaching Assistant, INFO 6105 – Data Science Engineering Methods and Tools, Northeastern University (Spring 2026)
 * Teaching Assistant, CSYE 7105 – Parallel Machine Learning & AI, Northeastern University (Fall 2025)
 * Remote Research Assistant, Machine Learning and Data Science (2023)
