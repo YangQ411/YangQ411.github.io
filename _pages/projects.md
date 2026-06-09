@@ -104,7 +104,7 @@ Here are selected research projects related to large language models, reinforcem
 
 ### LLM Evaluation Framework
 
-Developed a customized evaluation framework combining standard metrics and LLM-as-a-judge evaluation for instruction-following and multi-turn dialogue assessment.
+Studied evaluation methods for instruction-following LLMs, including lexical metrics, perplexity-based analysis, and LLM-as-a-judge evaluation. The project explores how different evaluation signals capture response quality in open-ended and multi-turn dialogue tasks.
 
 [GitHub Repo](https://github.com/YangQ411/LLM-Eval-Pipeline)
 
