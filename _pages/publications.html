@@ -19,7 +19,7 @@ author_profile: true
 <!-- ========================= -->
 
 {% assign ai_pubs = site.publications | where_exp: "pub", "pub.category != 'physics'" | sort: "date" | reverse %}
-{% assign ai_buckets = "in_preparation|under_review|published" | split: "|" %}
+{% assign ai_buckets = "submitted|under_review|in_preparation|published" | split: "|" %}
 
 {% for bucket in ai_buckets %}
   {% assign bucket_pubs = ai_pubs | where: "status", bucket %}
@@ -27,8 +27,9 @@ author_profile: true
   {% if bucket_pubs.size > 0 %}
     <h3 class="pub-subtitle first-subtitle">
       {% case bucket %}
-        {% when "in_preparation" %}In Preparation
+        {% when "submitted" %}Submitted
         {% when "under_review" %}Under Review
+        {% when "in_preparation" %}In Preparation
         {% when "published" %}Published
       {% endcase %}
     </h3>
@@ -71,10 +72,13 @@ author_profile: true
 <!-- Physics Publications      -->
 <!-- ========================= -->
 
-<h2 class="pub-section-title">Physics</h2>
-
 {% assign physics_pubs = site.publications | where: "category", "physics" | sort: "date" | reverse %}
-{% assign physics_buckets = "published|under_review|in_preparation" | split: "|" %}
+
+{% if physics_pubs.size > 0 %}
+  <h2 class="pub-section-title">Physics</h2>
+{% endif %}
+
+{% assign physics_buckets = "published|under_review|in_preparation|submitted" | split: "|" %}
 
 {% for bucket in physics_buckets %}
   {% assign bucket_pubs = physics_pubs | where: "status", bucket %}
@@ -85,6 +89,7 @@ author_profile: true
         {% when "published" %}Published
         {% when "under_review" %}Under Review
         {% when "in_preparation" %}In Preparation
+        {% when "submitted" %}Submitted
       {% endcase %}
     </h3>
 
