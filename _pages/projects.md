@@ -14,10 +14,10 @@ Here are selected research projects related to large language models, reinforcem
   </div>
 
   <div class="project-info">
-    <h3>ReaTrace: Reasoning Trajectory Analysis for Large Language Models</h3>
+    <h3>Reasoning Trajectory Analysis for Large Language Models</h3>
 
     <p>
-      ReaTrace explores process-level analysis of LLM reasoning beyond final-answer accuracy. The project focuses on understanding how reasoning unfolds across intermediate steps and how different reasoning trajectories can be compared in mathematical problem-solving tasks.
+      This project explores process-level analysis of LLM reasoning beyond final-answer accuracy. The project focuses on understanding how reasoning unfolds across intermediate steps and how different reasoning trajectories can be compared in mathematical problem-solving tasks.
     </p>
 
     <p>
